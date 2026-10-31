@@ -1,0 +1,57 @@
+FastAPI skills
+Copyright 2026 MOZGII, Inc. (https://mozgii.com/)
+
+Every text in this library is written by MOZGII. The sources below were read as context for facts; nothing was copied from them.
+
+- Sebastián Ramírez and the FastAPI contributors, https://github.com/fastapi/fastapi at 79cab5bed28b24d92c185d236feb33f5783dfeb3, MIT
+- the full-stack-fastapi-template contributors, https://github.com/fastapi/full-stack-fastapi-template at f4bcfaba7c85be3c6332cc74a20819f586dcdbc6, MIT
+- the sqlmodel contributors, https://github.com/fastapi/sqlmodel at 462b59d9cd1cc3d9072735435330ef9ab6d15cbf, MIT
+- the fastapi-cli contributors, https://github.com/fastapi/fastapi-cli at 093be9ca19f2ef44ba523aae0a98d6c9ea2e0888, MIT
+- the asyncer contributors, https://github.com/fastapi/asyncer at 3b301d75c4bb0c681e03a90f62963a1f62dd7b0c, MIT
+- the starlette contributors, https://github.com/Kludex/starlette at 2745bbc5afa2f8ce900d290bedca2bc5d3f3cfe8, BSD-3-Clause
+- the uvicorn contributors, https://github.com/Kludex/uvicorn at 9d81c12a2c411d3bf104368472b708a3218d9b4e, BSD-3-Clause
+- the uvicorn-worker contributors, https://github.com/Kludex/uvicorn-worker at cd29cc6447cff3abc968e930023dc97e5e5080f9, BSD-3-Clause
+- the pydantic contributors, https://github.com/pydantic/pydantic at 960cbd3adc075c133172c2386c9f50c337244084, MIT
+- the pydantic-settings contributors, https://github.com/pydantic/pydantic-settings at 02ea717e203893f9abdabfd6eeb00bd6e5fefe9e, MIT
+- the httpx2 contributors, https://github.com/pydantic/httpx2 at 2fc91585813781bf0a1ebbf76d41136a0fe4a1f7, BSD-3-Clause
+- the httpx contributors, https://github.com/encode/httpx at b5addb64f0161ff6bfe94c124ef76f6a1fba5254, BSD-3-Clause
+- the sqlalchemy contributors, https://github.com/sqlalchemy/sqlalchemy at c6494316e0b42b724433cd0d14491f3c229ba14f, MIT
+- the alembic contributors, https://github.com/sqlalchemy/alembic at 1bcba93ea0473c69b48e704f842ca96e9e5348f5, MIT
+- the pytest contributors, https://github.com/pytest-dev/pytest at 0212785e34eb635b3359e4eccc757de95bf39036, MIT
+- the pytest-asyncio contributors, https://github.com/pytest-dev/pytest-asyncio at c6094807d70c68599ced7e9332557ee1a475d921, Apache-2.0
+- the testcontainers-python contributors, https://github.com/testcontainers/testcontainers-python at 6146aa1170f415fcc825ed9bddc4eacbeb937a12, Apache-2.0
+- the uv contributors, https://github.com/astral-sh/uv at 564a2074b02eb9de5aaaa9491ed74357ade0332f, Apache-2.0 OR MIT
+- the pyjwt contributors, https://github.com/jpadilla/pyjwt at 16231abfd1d8eab4953e8779b3017b859c88565e, MIT
+- the pwdlib contributors, https://github.com/frankie567/pwdlib at 743f35d70a848c57e33c11c7724d235bbe73c693, MIT
+- the arq contributors, https://github.com/python-arq/arq at 5ee4b48cf6faf4dc181f1ccb76dfb1bc1fedf9bf, MIT
+- the taskiq contributors, https://github.com/taskiq-python/taskiq at f08a54ab3a8e4e16045c84379cf26eb4fa83d4b2, MIT
+- the taskiq-redis contributors, https://github.com/taskiq-python/taskiq-redis at 8f70bc85dd6a469cae7d3b467af7dea720c92434, MIT
+- the slowapi contributors, https://github.com/laurentS/slowapi at d3442b2e1425a9db535732a0a06248470c7f9fd5, MIT
+- the asgi-lifespan contributors, https://github.com/florimondmanca/asgi-lifespan at 8591cb106849c73e3080e6c689e8c22b70fd863f, MIT
+- the locust contributors, https://github.com/locustio/locust at 0d61b12db16a3b647deaea7840aa0f472389372e, MIT
+- the py-spy contributors, https://github.com/benfred/py-spy at 353afa6ff5bb322730c80abfc3372b2d1159de8c, MIT
+- the pyinstrument contributors, https://github.com/joerick/pyinstrument at e0d3dba24dedb13923c0f7f7c4533cb359f0101f, BSD-3-Clause
+- the fastmcp contributors, https://github.com/PrefectHQ/fastmcp at ffccd325f99b44626ddca0e86681f599dd462bb5, Apache-2.0
+- the python-sdk contributors, https://github.com/modelcontextprotocol/python-sdk at d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14, MIT
+- the stamina contributors, https://github.com/hynek/stamina at 5c13c8e0b4bc5faa54914115a8c796934ba6da9d, MIT
+- the standard-webhooks contributors, https://github.com/standard-webhooks/standard-webhooks at ab6844147ce9cdb0d2dbf2e60d1ea85001fd2554, Apache-2.0 (spec), MIT (Python library)
+- the a2wsgi contributors, https://github.com/abersheeran/a2wsgi at b8564f7e3da36bae6070a079c696c0789cce164d, Apache-2.0
+- the schemathesis contributors, https://github.com/schemathesis/schemathesis at a6ba1bdac4f22901c59745e9fea2f14883aa335b, MIT
+- the oasdiff contributors, https://github.com/oasdiff/oasdiff at 44e85a31dd74b2bcc8dd0a8a417b517b11da07ab, Apache-2.0
+- the openapi-generator contributors, https://github.com/OpenAPITools/openapi-generator at 936e700d7173818b6e49494b2d5cdd08ff7e35a2, Apache-2.0
+- the hey-api contributors, https://github.com/hey-api/hey-api at d6ba11fd9ae4f2b707454940121056fdb505235c, MIT
+- the claude-skills contributors, https://github.com/Jeffallan/claude-skills at 078a25cc5bfd8011459be7b91d004e900c1d02d3, MIT
+- the agents contributors, https://github.com/wshobson/agents at 7e2fb559cf4b824b27f1fec49fe88f7511066d26, MIT
+- the awesome-cursorrules contributors, https://github.com/PatrickJS/awesome-cursorrules at b044f956f021b6e8877f16781bcfc466a6a120e9, CC0-1.0
+- the awesome-fastapi contributors, https://github.com/mjhea0/awesome-fastapi at 38e525ea955795e36aa54daf28fd923f72a511b8, CC0-1.0
+- the skills contributors, https://github.com/anthropics/skills at ca45fc496a3436251f191354091d557da31c15b5, see repository
+- the fastapi-best-practices contributors, https://github.com/zhanymkanov/fastapi-best-practices at 5e00aa6095521f0d00e4eec2ef0afa44cd566af4, no licence (read as context; facts only)
+- the fastapi-tips contributors, https://github.com/Kludex/fastapi-tips at a263df9b885a42a2c6446927eeb2a855c13b4871, no licence (read as context; facts only)
+- the sentry-python contributors, https://github.com/getsentry/sentry-python at 7ad4e1a4270b3c79a41b42b0596b7092bcf976d9, MIT
+- the polyfactory contributors, https://github.com/litestar-org/polyfactory at 4106c8e2ab7c3dde4cd7cf05ef7bc8771adcf0c1, MIT
+- the structlog contributors, https://github.com/hynek/structlog at 19c4f21059e853114efa7a93b6e675d93bf7934e, Apache-2.0 OR MIT
+- the celery contributors, https://github.com/celery/celery at 2ef8265b0a1dd977abdbcb087d3208b6575842c1, BSD-3-Clause
+- the asyncpg contributors, https://github.com/MagicStack/asyncpg at 13b01910da3fe01b8241c31cc86eccb1301a2d39, Apache-2.0
+- Stripe, https://docs.stripe.com/webhooks, provider documentation (proprietary; facts only)
+- GitHub, https://docs.github.com/en/webhooks, provider documentation (CC-BY-4.0; facts only)
+- Anthropic, https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview, product documentation (proprietary; facts only)

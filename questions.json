@@ -1,0 +1,367 @@
+[
+ {
+  "question": "How do I tell the fastapi command which module holds my app object?",
+  "answer": "[tool.fastapi]",
+  "file": "v0.162/api/fastapi-project-structure/SKILL.md"
+ },
+ {
+  "question": "Where should I open database pools and HTTP clients when the server starts?",
+  "answer": "Lifespan for startup and shutdown",
+  "file": "v0.162/api/fastapi-project-structure/SKILL.md"
+ },
+ {
+  "question": "How do I keep secret settings out of logs and reprs?",
+  "answer": "logs and tracebacks; read it with",
+  "file": "v0.162/api/fastapi-project-structure/SKILL.md"
+ },
+ {
+  "question": "How can a single test change one configuration value?",
+  "answer": "Overriding settings in tests",
+  "file": "v0.162/api/fastapi-project-structure/references/settings.md"
+ },
+ {
+  "question": "How is the official full stack template's backend organized?",
+  "answer": "Layout by layer",
+  "file": "v0.162/api/fastapi-project-structure/references/layouts.md"
+ },
+ {
+  "question": "How can I find time.sleep or requests calls hidden inside async endpoints?",
+  "answer": "find_blocking_calls.py",
+  "file": "v0.162/api/fastapi-code-standards/SKILL.md"
+ },
+ {
+  "question": "Is it fine to put the exception message in the error response?",
+  "answer": "a traceback, SQL or a file path in a response",
+  "file": "v0.162/api/fastapi-code-standards/SKILL.md"
+ },
+ {
+  "question": "Why do I get 422 when my client posts JSON without a content type header?",
+  "answer": "Strict JSON Content-Type checking",
+  "file": "v0.162/api/fastapi-routing/SKILL.md"
+ },
+ {
+  "question": "Can I put all my filter and paging query params in one Pydantic class?",
+  "answer": "Parameter models for filters and pagination",
+  "file": "v0.162/api/fastapi-routing/SKILL.md"
+ },
+ {
+  "question": "My /items/me route gets parsed as an item id and fails",
+  "answer": "Route order matters for overlapping paths",
+  "file": "v0.162/api/fastapi-routing/SKILL.md"
+ },
+ {
+  "question": "What happens with unchecked HTML checkboxes in a form model?",
+  "answer": "Boolean checkboxes",
+  "file": "v0.162/api/fastapi-routing/references/forms-and-files.md"
+ },
+ {
+  "question": "Should I switch to ORJSONResponse to make responses faster?",
+  "answer": "ORJSONResponse and UJSONResponse are deprecated",
+  "file": "v0.162/api/fastapi-routing/references/responses.md"
+ },
+ {
+  "question": "How do I update only the fields the client sent?",
+  "answer": "PATCH with exclude_unset",
+  "file": "v0.162/api/fastapi-pydantic-models/SKILL.md"
+ },
+ {
+  "question": "My frontend wants camelCase keys but my Python uses snake_case",
+  "answer": "camelCase aliases for JavaScript clients",
+  "file": "v0.162/api/fastapi-pydantic-models/SKILL.md"
+ },
+ {
+  "question": "One endpoint accepts card or bank payments with different fields",
+  "answer": "Discriminated unions",
+  "file": "v0.162/api/fastapi-pydantic-models/SKILL.md"
+ },
+ {
+  "question": "How do I return a paginated list with total count for any item type?",
+  "answer": "Generic page response",
+  "file": "v0.162/api/fastapi-pydantic-models/references/recipes.md"
+ },
+ {
+  "question": "When exactly does the code after yield in a dependency run?",
+  "answer": "When a yield dependency cleans up: scope",
+  "file": "v0.162/api/fastapi-dependencies/SKILL.md"
+ },
+ {
+  "question": "I repeat 'load item by id or 404' in every endpoint, how do I share it?",
+  "answer": "Validation dependencies that load a resource",
+  "file": "v0.162/api/fastapi-dependencies/SKILL.md"
+ },
+ {
+  "question": "How do I fake the logged-in user in tests?",
+  "answer": "dependency_overrides in tests",
+  "file": "v0.162/api/fastapi-dependencies/SKILL.md"
+ },
+ {
+  "question": "The server logs FastAPIError Response not awaited",
+  "answer": "Response not awaited",
+  "file": "v0.162/api/fastapi-dependencies/SKILL.md"
+ },
+ {
+  "question": "I get MissingGreenlet when reading an attribute after commit",
+  "answer": "expire_on_commit=False",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md"
+ },
+ {
+  "question": "How do I load users with their items without one query per user?",
+  "answer": "Relationships and the N+1 problem",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md"
+ },
+ {
+  "question": "How many Postgres connections will my workers open?",
+  "answer": "Pool sizing",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md"
+ },
+ {
+  "question": "Deleting a parent row fails with a not-null violation on the child's foreign key",
+  "answer": "passive_deletes",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/references/loading.md"
+ },
+ {
+  "question": "Should I use SQLModel or plain SQLAlchemy?",
+  "answer": "When to choose SQLModel",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/references/sqlmodel.md"
+ },
+ {
+  "question": "Which layer should call session.commit?",
+  "answer": "Service functions own the transaction",
+  "file": "v0.162/data-and-integrations/fastapi-repository-pattern/SKILL.md"
+ },
+ {
+  "question": "Should my repository raise HTTPException for missing rows?",
+  "answer": "Domain exceptions, mapped once",
+  "file": "v0.162/data-and-integrations/fastapi-repository-pattern/SKILL.md"
+ },
+ {
+  "question": "How do I set up Alembic for an async SQLAlchemy project?",
+  "answer": "pyproject_async",
+  "file": "v0.162/data-and-integrations/fastapi-alembic-migrations/SKILL.md"
+ },
+ {
+  "question": "Can I fix a mistake in a migration that already ran on staging?",
+  "answer": "Migrations are immutable once shared",
+  "file": "v0.162/data-and-integrations/fastapi-alembic-migrations/SKILL.md"
+ },
+ {
+  "question": "How do I add an index to a big table without blocking writes?",
+  "answer": "autocommit_block",
+  "file": "v0.162/data-and-integrations/fastapi-alembic-migrations/SKILL.md"
+ },
+ {
+  "question": "Autogenerate turned my column rename into a drop and an add",
+  "answer": "Column renames",
+  "file": "v0.162/data-and-integrations/fastapi-alembic-migrations/references/autogenerate.md"
+ },
+ {
+  "question": "How do I rename a column without downtime during a rolling deploy?",
+  "answer": "Zero-downtime schema changes",
+  "file": "v0.162/data-and-integrations/fastapi-alembic-migrations/SKILL.md"
+ },
+ {
+  "question": "What library should I use to hash user passwords?",
+  "answer": "PasswordHash.recommended()",
+  "file": "v0.162/production/fastapi-security/SKILL.md"
+ },
+ {
+  "question": "How do I issue and check JWT access tokens?",
+  "answer": "JWT access tokens with PyJWT",
+  "file": "v0.162/production/fastapi-security/SKILL.md"
+ },
+ {
+  "question": "Should a request without a token get 401 or 403?",
+  "answer": "401, 403 and 404",
+  "file": "v0.162/production/fastapi-security/SKILL.md"
+ },
+ {
+  "question": "How do I allow my React app on another domain to call the API?",
+  "answer": "CORS for browser clients",
+  "file": "v0.162/production/fastapi-security/references/hardening.md"
+ },
+ {
+  "question": "How do refresh tokens with rotation and reuse detection work?",
+  "answer": "Refresh token rotation",
+  "file": "v0.162/production/fastapi-security/references/tokens.md"
+ },
+ {
+  "question": "Welcome emails get lost whenever we deploy, what should send them?",
+  "answer": "Task queues for work that must not be lost",
+  "file": "v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+ },
+ {
+  "question": "My hourly job runs once per worker instead of once",
+  "answer": "Periodic jobs and lifespan task groups",
+  "file": "v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+ },
+ {
+  "question": "How do I run CPU heavy image processing without blocking requests?",
+  "answer": "Blocking and CPU-heavy code",
+  "file": "v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+ },
+ {
+  "question": "How do I stream LLM tokens to the browser as they arrive?",
+  "answer": "Streaming LLM tokens with SSE",
+  "file": "v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md"
+ },
+ {
+  "question": "Chat messages only reach users connected to the same worker",
+  "answer": "broadcasting across workers",
+  "file": "v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md"
+ },
+ {
+  "question": "The browser can't send an Authorization header on a websocket, how do I authenticate?",
+  "answer": "WebSocket authentication for browsers",
+  "file": "v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md"
+ },
+ {
+  "question": "My async tests fail with attached to a different loop",
+  "answer": "attached to a different loop",
+  "file": "v0.162/production/fastapi-testing/SKILL.md"
+ },
+ {
+  "question": "AsyncClient(app=app) raises TypeError unexpected keyword",
+  "answer": "was removed in httpx 0.28",
+  "file": "v0.162/production/fastapi-testing/SKILL.md"
+ },
+ {
+  "question": "How do I run my tests against a real Postgres in Docker?",
+  "answer": "Real PostgreSQL with testcontainers",
+  "file": "v0.162/production/fastapi-testing/SKILL.md"
+ },
+ {
+  "question": "How do I undo everything a test wrote to the database, even after the app commits?",
+  "answer": "Transaction per test with savepoints",
+  "file": "v0.162/production/fastapi-testing/SKILL.md"
+ },
+ {
+  "question": "How do I prove one organisation cannot see another's data?",
+  "answer": "Tenant isolation test",
+  "file": "v0.162/production/fastapi-testing/references/recipes.md"
+ },
+ {
+  "question": "Give me a complete conftest for async tests with Postgres",
+  "answer": "What the fixtures do",
+  "file": "v0.162/production/fastapi-testing/references/conftest.md"
+ },
+ {
+  "question": "How do I put a request id on every log line?",
+  "answer": "Structured logging with a request id",
+  "file": "v0.162/api/fastapi-errors-observability/SKILL.md"
+ },
+ {
+  "question": "How do I send traces and metrics to my OpenTelemetry collector?",
+  "answer": "FASTAPI_OTEL_AUTO_CONFIGURE",
+  "file": "v0.162/api/fastapi-errors-observability/SKILL.md"
+ },
+ {
+  "question": "What's the difference between a liveness and a readiness endpoint?",
+  "answer": "Liveness and readiness checks",
+  "file": "v0.162/api/fastapi-errors-observability/SKILL.md"
+ },
+ {
+  "question": "The generated TypeScript client has ugly method names",
+  "answer": "generate_unique_id_function",
+  "file": "v0.162/api/fastapi-openapi/SKILL.md"
+ },
+ {
+  "question": "How can CI tell me a pull request breaks API clients?",
+  "answer": "Catch breaking changes in CI",
+  "file": "v0.162/api/fastapi-openapi/SKILL.md"
+ },
+ {
+  "question": "Redirects point to http even though users come in over https",
+  "answer": "--forwarded-allow-ips",
+  "file": "v0.162/production/fastapi-deployment/SKILL.md"
+ },
+ {
+  "question": "Write a Dockerfile for a FastAPI project managed with uv",
+  "answer": "Docker image with uv",
+  "file": "v0.162/production/fastapi-deployment/SKILL.md"
+ },
+ {
+  "question": "Should I use --workers inside a Kubernetes pod?",
+  "answer": "How many processes",
+  "file": "v0.162/production/fastapi-deployment/SKILL.md"
+ },
+ {
+  "question": "How do I configure nginx to proxy websockets to uvicorn?",
+  "answer": "Nginx in front of Uvicorn",
+  "file": "v0.162/production/fastapi-deployment/references/docker.md"
+ },
+ {
+  "question": "Latency rises under load but CPU stays low",
+  "answer": "Find blocking calls on the event loop",
+  "file": "v0.162/production/fastapi-performance/SKILL.md"
+ },
+ {
+  "question": "How do I see where time goes inside one slow request?",
+  "answer": "Profile a slow endpoint",
+  "file": "v0.162/production/fastapi-performance/SKILL.md"
+ },
+ {
+  "question": "How do I verify that a Stripe or GitHub webhook really came from them?",
+  "answer": "Receiving webhooks with a signature check",
+  "file": "v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+ },
+ {
+  "question": "A mobile app retried a POST after a timeout and we ended up with two orders",
+  "answer": "Idempotency keys for your own POST endpoints",
+  "file": "v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+ },
+ {
+  "question": "After upgrading FastAPI our clients suddenly get 422 errors, what changed?",
+  "answer": "Symptoms after upgrading FastAPI",
+  "file": "v0.162/production/fastapi-version-upgrades/SKILL.md"
+ },
+ {
+  "question": "How do I move my old models from Pydantic v1 to v2?",
+  "answer": "Pydantic v1 to v2",
+  "file": "v0.162/production/fastapi-version-upgrades/SKILL.md"
+ },
+ {
+  "question": "Which middleware runs first when I call add_middleware several times?",
+  "answer": "The order middleware runs in",
+  "file": "v0.162/api/fastapi-middleware/SKILL.md"
+ },
+ {
+  "question": "Can I serve an old Flask app from inside my FastAPI app?",
+  "answer": "Mounting sub-applications",
+  "file": "v0.162/api/fastapi-middleware/SKILL.md"
+ },
+ {
+  "question": "How can Claude or another AI agent call my FastAPI backend as tools?",
+  "answer": "Hand-written tools or a converted API",
+  "file": "v0.162/data-and-integrations/fastapi-mcp-server/SKILL.md"
+ },
+ {
+  "question": "I mounted my MCP server at /mcp and it answers 404",
+  "answer": "Mount the MCP endpoint in the FastAPI app",
+  "file": "v0.162/data-and-integrations/fastapi-mcp-server/SKILL.md"
+ },
+ {
+  "question": "Two people editing the same record overwrite each other's changes",
+  "answer": "Concurrent updates and lost writes",
+  "file": "v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md"
+ },
+ {
+  "question": "How should a forgot-password link work securely?",
+  "answer": "Password reset and email verification tokens",
+  "file": "v0.162/production/fastapi-security/references/tokens.md"
+ },
+ {
+  "question": "How do I render server-side HTML pages with Jinja2?",
+  "answer": "HTML pages with Jinja2 templates",
+  "file": "v0.162/api/fastapi-routing/references/responses.md"
+ },
+ {
+  "question": "What's the fastest way to put my API online without writing a Dockerfile?",
+  "answer": "FastAPI Cloud with fastapi deploy",
+  "file": "v0.162/production/fastapi-deployment/SKILL.md"
+ },
+ {
+  "question": "Can tests be generated automatically from my OpenAPI schema?",
+  "answer": "Property-based tests from the OpenAPI schema",
+  "file": "v0.162/production/fastapi-testing/references/recipes.md"
+ }
+]

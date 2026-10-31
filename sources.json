@@ -1,0 +1,576 @@
+{
+ "sources": [
+  {
+   "from": "https://github.com/fastapi/fastapi/tree/79cab5bed28b24d92c185d236feb33f5783dfeb3",
+   "commit": "79cab5bed28b24d92c185d236feb33f5783dfeb3",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-code-standards/SKILL.md",
+    "docs/v0.162/api/fastapi-dependencies/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/SKILL.md",
+    "docs/v0.162/api/fastapi-errors-observability/SKILL.md",
+    "docs/v0.162/api/fastapi-middleware/SKILL.md",
+    "docs/v0.162/api/fastapi-openapi/SKILL.md",
+    "docs/v0.162/production/fastapi-performance/SKILL.md",
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/api/fastapi-pydantic-models/SKILL.md",
+    "docs/v0.162/api/fastapi-routing/SKILL.md",
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md",
+    "docs/v0.162/api/fastapi-routing/references/responses.md",
+    "docs/v0.162/api/fastapi-routing/references/forms-and-files.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/fastapi/full-stack-fastapi-template/tree/f4bcfaba7c85be3c6332cc74a20819f586dcdbc6",
+   "commit": "f4bcfaba7c85be3c6332cc74a20819f586dcdbc6",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/SKILL.md",
+    "docs/v0.162/api/fastapi-project-structure/references/layouts.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/fastapi/sqlmodel/tree/462b59d9cd1cc3d9072735435330ef9ab6d15cbf",
+   "commit": "462b59d9cd1cc3d9072735435330ef9ab6d15cbf",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/references/sqlmodel.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/fastapi/fastapi-cli/tree/093be9ca19f2ef44ba523aae0a98d6c9ea2e0888",
+   "commit": "093be9ca19f2ef44ba523aae0a98d6c9ea2e0888",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/fastapi/asyncer/tree/3b301d75c4bb0c681e03a90f62963a1f62dd7b0c",
+   "commit": "3b301d75c4bb0c681e03a90f62963a1f62dd7b0c",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-code-standards/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/Kludex/starlette/tree/2745bbc5afa2f8ce900d290bedca2bc5d3f3cfe8",
+   "commit": "2745bbc5afa2f8ce900d290bedca2bc5d3f3cfe8",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-middleware/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/Kludex/uvicorn/tree/9d81c12a2c411d3bf104368472b708a3218d9b4e",
+   "commit": "9d81c12a2c411d3bf104368472b708a3218d9b4e",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-deployment/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/references/docker.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/Kludex/uvicorn-worker/tree/cd29cc6447cff3abc968e930023dc97e5e5080f9",
+   "commit": "cd29cc6447cff3abc968e930023dc97e5e5080f9",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-deployment/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/pydantic/pydantic/tree/960cbd3adc075c133172c2386c9f50c337244084",
+   "commit": "960cbd3adc075c133172c2386c9f50c337244084",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-pydantic-models/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md",
+    "docs/v0.162/api/fastapi-pydantic-models/references/recipes.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/pydantic/pydantic-settings/tree/02ea717e203893f9abdabfd6eeb00bd6e5fefe9e",
+   "commit": "02ea717e203893f9abdabfd6eeb00bd6e5fefe9e",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/api/fastapi-project-structure/references/settings.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/pydantic/httpx2/tree/2fc91585813781bf0a1ebbf76d41136a0fe4a1f7",
+   "commit": "2fc91585813781bf0a1ebbf76d41136a0fe4a1f7",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/encode/httpx/tree/b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+   "commit": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/sqlalchemy/sqlalchemy/tree/c6494316e0b42b724433cd0d14491f3c229ba14f",
+   "commit": "c6494316e0b42b724433cd0d14491f3c229ba14f",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/references/loading.md",
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/references/postgres-features.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/sqlalchemy/alembic/tree/1bcba93ea0473c69b48e704f842ca96e9e5348f5",
+   "commit": "1bcba93ea0473c69b48e704f842ca96e9e5348f5",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-alembic-migrations/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-alembic-migrations/references/autogenerate.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/pytest-dev/pytest/tree/0212785e34eb635b3359e4eccc757de95bf39036",
+   "commit": "0212785e34eb635b3359e4eccc757de95bf39036",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/pytest-dev/pytest-asyncio/tree/c6094807d70c68599ced7e9332557ee1a475d921",
+   "commit": "c6094807d70c68599ced7e9332557ee1a475d921",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/testcontainers/testcontainers-python/tree/6146aa1170f415fcc825ed9bddc4eacbeb937a12",
+   "commit": "6146aa1170f415fcc825ed9bddc4eacbeb937a12",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/references/conftest.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/astral-sh/uv/tree/564a2074b02eb9de5aaaa9491ed74357ade0332f",
+   "commit": "564a2074b02eb9de5aaaa9491ed74357ade0332f",
+   "license": "Apache-2.0 OR MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/SKILL.md",
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/references/docker.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/jpadilla/pyjwt/tree/16231abfd1d8eab4953e8779b3017b859c88565e",
+   "commit": "16231abfd1d8eab4953e8779b3017b859c88565e",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-security/references/tokens.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/frankie567/pwdlib/tree/743f35d70a848c57e33c11c7724d235bbe73c693",
+   "commit": "743f35d70a848c57e33c11c7724d235bbe73c693",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-version-upgrades/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/python-arq/arq/tree/5ee4b48cf6faf4dc181f1ccb76dfb1bc1fedf9bf",
+   "commit": "5ee4b48cf6faf4dc181f1ccb76dfb1bc1fedf9bf",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-background-tasks/references/arq.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/taskiq-python/taskiq/tree/f08a54ab3a8e4e16045c84379cf26eb4fa83d4b2",
+   "commit": "f08a54ab3a8e4e16045c84379cf26eb4fa83d4b2",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/taskiq-python/taskiq-redis/tree/8f70bc85dd6a469cae7d3b467af7dea720c92434",
+   "commit": "8f70bc85dd6a469cae7d3b467af7dea720c92434",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/laurentS/slowapi/tree/d3442b2e1425a9db535732a0a06248470c7f9fd5",
+   "commit": "d3442b2e1425a9db535732a0a06248470c7f9fd5",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-security/references/hardening.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/florimondmanca/asgi-lifespan/tree/8591cb106849c73e3080e6c689e8c22b70fd863f",
+   "commit": "8591cb106849c73e3080e6c689e8c22b70fd863f",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/locustio/locust/tree/0d61b12db16a3b647deaea7840aa0f472389372e",
+   "commit": "0d61b12db16a3b647deaea7840aa0f472389372e",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-performance/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/benfred/py-spy/tree/353afa6ff5bb322730c80abfc3372b2d1159de8c",
+   "commit": "353afa6ff5bb322730c80abfc3372b2d1159de8c",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-performance/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/joerick/pyinstrument/tree/e0d3dba24dedb13923c0f7f7c4533cb359f0101f",
+   "commit": "e0d3dba24dedb13923c0f7f7c4533cb359f0101f",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-performance/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/PrefectHQ/fastmcp/tree/ffccd325f99b44626ddca0e86681f599dd462bb5",
+   "commit": "ffccd325f99b44626ddca0e86681f599dd462bb5",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-mcp-server/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/modelcontextprotocol/python-sdk/tree/d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14",
+   "commit": "d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-mcp-server/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/hynek/stamina/tree/5c13c8e0b4bc5faa54914115a8c796934ba6da9d",
+   "commit": "5c13c8e0b4bc5faa54914115a8c796934ba6da9d",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/standard-webhooks/standard-webhooks/tree/ab6844147ce9cdb0d2dbf2e60d1ea85001fd2554",
+   "commit": "ab6844147ce9cdb0d2dbf2e60d1ea85001fd2554",
+   "license": "Apache-2.0 (spec), MIT (Python library)",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/abersheeran/a2wsgi/tree/b8564f7e3da36bae6070a079c696c0789cce164d",
+   "commit": "b8564f7e3da36bae6070a079c696c0789cce164d",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-middleware/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/schemathesis/schemathesis/tree/a6ba1bdac4f22901c59745e9fea2f14883aa335b",
+   "commit": "a6ba1bdac4f22901c59745e9fea2f14883aa335b",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/references/recipes.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/oasdiff/oasdiff/tree/44e85a31dd74b2bcc8dd0a8a417b517b11da07ab",
+   "commit": "44e85a31dd74b2bcc8dd0a8a417b517b11da07ab",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-openapi/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/OpenAPITools/openapi-generator/tree/936e700d7173818b6e49494b2d5cdd08ff7e35a2",
+   "commit": "936e700d7173818b6e49494b2d5cdd08ff7e35a2",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-openapi/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/hey-api/hey-api/tree/d6ba11fd9ae4f2b707454940121056fdb505235c",
+   "commit": "d6ba11fd9ae4f2b707454940121056fdb505235c",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-openapi/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/Jeffallan/claude-skills/tree/078a25cc5bfd8011459be7b91d004e900c1d02d3",
+   "commit": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/api/fastapi-routing/SKILL.md",
+    "docs/v0.162/production/fastapi-security/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/wshobson/agents/tree/7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+   "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-repository-pattern/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/PatrickJS/awesome-cursorrules/tree/b044f956f021b6e8877f16781bcfc466a6a120e9",
+   "commit": "b044f956f021b6e8877f16781bcfc466a6a120e9",
+   "license": "CC0-1.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-code-standards/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/mjhea0/awesome-fastapi/tree/38e525ea955795e36aa54daf28fd923f72a511b8",
+   "commit": "38e525ea955795e36aa54daf28fd923f72a511b8",
+   "license": "CC0-1.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-performance/SKILL.md",
+    "docs/v0.162/production/fastapi-testing/SKILL.md",
+    "docs/v0.162/production/fastapi-deployment/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5",
+   "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+   "license": "see repository",
+   "read": "2026-10-31",
+   "informed": [
+    "README.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/zhanymkanov/fastapi-best-practices/tree/5e00aa6095521f0d00e4eec2ef0afa44cd566af4",
+   "commit": "5e00aa6095521f0d00e4eec2ef0afa44cd566af4",
+   "license": "no licence (read as context; facts only)",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-project-structure/SKILL.md",
+    "docs/v0.162/api/fastapi-dependencies/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/Kludex/fastapi-tips/tree/a263df9b885a42a2c6446927eeb2a855c13b4871",
+   "commit": "a263df9b885a42a2c6446927eeb2a855c13b4871",
+   "license": "no licence (read as context; facts only)",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-middleware/SKILL.md",
+    "docs/v0.162/production/fastapi-performance/SKILL.md",
+    "docs/v0.162/data-and-integrations/fastapi-websockets-streaming/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/getsentry/sentry-python/tree/7ad4e1a4270b3c79a41b42b0596b7092bcf976d9",
+   "commit": "7ad4e1a4270b3c79a41b42b0596b7092bcf976d9",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-errors-observability/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/litestar-org/polyfactory/tree/4106c8e2ab7c3dde4cd7cf05ef7bc8771adcf0c1",
+   "commit": "4106c8e2ab7c3dde4cd7cf05ef7bc8771adcf0c1",
+   "license": "MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/production/fastapi-testing/references/recipes.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/hynek/structlog/tree/19c4f21059e853114efa7a93b6e675d93bf7934e",
+   "commit": "19c4f21059e853114efa7a93b6e675d93bf7934e",
+   "license": "Apache-2.0 OR MIT",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/api/fastapi-errors-observability/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/celery/celery/tree/2ef8265b0a1dd977abdbcb087d3208b6575842c1",
+   "commit": "2ef8265b0a1dd977abdbcb087d3208b6575842c1",
+   "license": "BSD-3-Clause",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-background-tasks/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://github.com/MagicStack/asyncpg/tree/13b01910da3fe01b8241c31cc86eccb1301a2d39",
+   "commit": "13b01910da3fe01b8241c31cc86eccb1301a2d39",
+   "license": "Apache-2.0",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-sqlalchemy-async/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://docs.stripe.com/webhooks",
+   "commit": null,
+   "license": "provider documentation (proprietary; facts only)",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://docs.github.com/en/webhooks",
+   "commit": null,
+   "license": "provider documentation (CC-BY-4.0; facts only)",
+   "read": "2026-10-31",
+   "informed": [
+    "docs/v0.162/data-and-integrations/fastapi-external-apis/SKILL.md"
+   ],
+   "copied": false
+  },
+  {
+   "from": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+   "commit": null,
+   "license": "product documentation (proprietary; facts only)",
+   "read": "2026-10-31",
+   "informed": [
+    "README.md"
+   ],
+   "copied": false
+  }
+ ]
+}
