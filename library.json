@@ -1,12 +1,13 @@
 {
-  "name": "python-fastapi",
+  "name": "skills-python-fastapi",
   "title": "FastAPI skills",
   "description": "20 FastAPI skills: structure, routing, Pydantic, SQLAlchemy, Alembic, auth, testing, MCP, deployment.",
   "author": "MOZGII, Inc.",
   "url": "https://mozgii.com",
   "coauthor": "",
   "coauthorUrl": "",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "engines": { "mozgii": ">=0.1.0" },
   "selftest": {
     "minimum": 0.85
   }
